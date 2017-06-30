@@ -115,8 +115,8 @@ color: #fff;
 	text-align: center;
 }
 
-input:focus {
-	color: #fff;
+input::placeholder {
+  color: #fff;
 }
 
 .apiMoveDown {
