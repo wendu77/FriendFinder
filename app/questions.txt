@@ -1,0 +1,13 @@
+Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
+
+1) I am a leader.
+2) I hate cooking.
+3) I'm Mark-Zuckerberg-smart.
+4) I make a good first impression.
+5) I hold in saying "I told you so" to the ones I love...
+6) I worry a lot.
+7) I love people.
+8) I believe you can accurately assess a person based on their first impression.
+9) I'm an adventure-addict.
+10) I know when someone is lying to me.
+11) I am a happy person.

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FRIEND FINDER: Survey</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="App that matches you with a compatible friend, based off of the survey you fill out." />
+	<meta name="keywords" content="" />
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--jQuery cdn-->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<!--use font-awesome with bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--bulma css cdns-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css">
+	<!--styles.sass style sheet-->
+	<link type="text/css" href="../../assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+	<section class="hero is-success is-fullheight bgColor">
+		<!-- CENTERED HERO CONTENT -->
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="jumbotron"><h3 class="directions"><strong>Directions</strong>: These statements are a reflection of the type of person you feel you are. Answer honestly, because once you submit, we'll find you a like-minded friend. Select from one the options under each statement.<br> <strong>Each one is scaled from 1 to 5 scale:</strong></h3><br>
+
+				<div><h3 class="optionsExplained">1) Strongly Disagree<br>
+				2) Disagree<br>
+				3) Neither Disagree nor Agree <br>
+				4) Agree<br>
+				5) Strongly Agree</h3>
+				</div></div>
+				<div class="field">
+					<!--name-->
+					<label class="label">ENTER YOUR NAME:</label>
+					<p class="control fieldWidth">
+						<input class="input" type="text" placeholder="Text input" id="name">
+					</p>
+				</div>
+				<!--name-->
+				<div class="field">
+					<label class="label">LINK TO PHOTO IMAGE:</label>
+					<p class="control fieldWidth">
+						<input class="input" type="text" placeholder="Your photo image url" id="image">
+					</p>
+				</div>
+<div><h2 class="surveyTitle"><strong>Survey Statements</strong></h2></div>
+				<div class="field">
+					<label class="label statements">1) I am a leader.</label>
+					<div class="form-group">
+					<div class="radio">
+						<b>Strongly Disagree &nbsp;&nbsp;</b>
+						<label><input type="radio" name="q1" id="q1-1" value="1" required> 1</label>
+						<label><input type="radio" name="q1" id="q1-2" value="2" required> 2</label>
+						<label><input type="radio" name="q1" id="q1-3" value="3" required> 3</label>
+						<label><input type="radio" name="q1" id="q1-4" value="4" required> 4</label>
+						<label><input type="radio" name="q1" id="q1-5" value="5" required> 5</label>
+						<b>&nbsp;&nbsp; Strongly Agree</b>
+					</div>
+				</div>
+<!--
+					<p class="control selectMe">
+						<span class="select">
+								  <select class="selectMe has-text-centered" required>
+									<option  name="q1" id="q1-1" value="1" >1 (strongly disagree)</option>
+									<option  name="q1" id="q1-2" value="2" >2</option>
+									<option  name="q1" id="q1-3" value="3" >3</option>
+									<option  name="q1" id="q1-4" value="4" >4</option>
+									<option  name="q1" id="q1-5" value="5" >5 (strongly agree)</option>
+								  </select>
+    					</span>
+					</p>
+-->
+				</div>
+
+				<div class="field">
+					<label class="label statements">2) I hate cooking.</label>
+				<div class="form-group">
+					<div class="radio">
+
+						<b>Strongly Disagree &nbsp;&nbsp;</b>
+						<label><input type="radio" name="q2" id="q2-1" value="1" required> 1</label>
+						<label><input type="radio" name="q2" id="q2-2" value="2" required> 2</label>
+						<label><input type="radio" name="q2" id="q2-3" value="3" required> 3</label>
+						<label><input type="radio" name="q2" id="q2-4" value="4" required> 4</label>
+						<label><input type="radio" name="q2" id="q2-5" value="5" required> 5</label>
+						<b>&nbsp;&nbsp; Strongly Agree</b>
+					</div>
+				</div>
+<!--
+					<p class="control selectMe">
+						<span class="select">
+								  <select class="selectMe has-text-centered" required>
+									<option  name="q2" id="q2-1" value="1" >1 (strongly disagree)</option>
+									<option  name="q2" id="q2-2" value="2" >2</option>
+									<option  name="q2" id="q2-3" value="3" >3</option>
+									<option  name="q2" id="q2-4" value="4" >4</option>
+									<option  name="q2" id="q2-5" value="5" >5 (strongly agree)</option>
+								  </select>
+    					</span>
+					</p>
+-->
+				</div>
+
+				<div class="field">
+					<label class="label statements">3) I'm Mark-Zuckerberg-smart.</label>
+				<div class="form-group">
+					<div class="radio">
+						<b>Strongly Disagree &nbsp;&nbsp;</b>
+						<label><input type="radio" name="q3" id="q3-1" value="1" required> 1</label>
+						<label><input type="radio" name="q3" id="q3-2" value="2" required> 2</label>
+						<label><input type="radio" name="q3" id="q3-3" value="3" required> 3</label>
+						<label><input type="radio" name="q3" id="q3-4" value="4" required> 4</label>
+						<label><input type="radio" name="q3" id="q3-5" value="5" required> 5</label>
+						<b>&nbsp;&nbsp; Strongly Agree</b>
+					</div>
+				</div>
+<!--
+					<p class="control selectMe">
+						<span class="select">
+								  <select class="selectMe has-text-centered" required>
+									<option  name="q3" id="q3-1" value="1" >1 (strongly disagree)</option>
+									<option  name="q3" id="q3-2" value="2" >2</option>
+									<option  name="q3" id="q3-3" value="3" >3</option>
+									<option  name="q3" id="q3-4" value="4" >4</option>
+									<option  name="q3" id="q3-5" value="5" >5 (strongly agree)</option>
+								  </select>
+    					</span>
+					</p>
+-->
+				</div>
+
+				<div class="field">
+					<label class="label statements">4) I make a good first impression.</label>
+				<div class="form-group">
+					<div class="radio">
+						<b>Strongly Disagree &nbsp;&nbsp;</b>
+						<label><input type="radio" name="q4" id="q4-1" value="1" required> 1</label>
+						<label><input type="radio" name="q4" id="q4-2" value="2" required> 2</label>
+						<label><input type="radio" name="q4" id="q4-3" value="3" required> 3</label>
+						<label><input type="radio" name="q4" id="q4-4" value="4" required> 4</label>
+						<label><input type="radio" name="q4" id="q4-5" value="5" required> 5</label>
+						<b>&nbsp;&nbsp; Strongly Agree</b>
+					</div>
+				</div>
+<!--
+					<p class="control selectMe">
+						<span class="select">
+								  <select class="selectMe has-text-centered" required>
+									<option  name="q4" id="q4-1" value="1" >1 (strongly disagree)</option>
+									<option  name="q4" id="q4-2" value="2" >2</option>
+									<option  name="q4" id="q4-3" value="3" >3</option>
+									<option  name="q4" id="q4-4" value="4" >4</option>
+									<option  name="q4" id="q4-5" value="5" >5 (strongly agree)</option>
+								  </select>
+    					</span>
+					</p>
+-->
+				</div>
+
+				<div class="field">
+					<label class="label statements">5) I hold in saying "I told you so" to the ones I love...</label>
+				<div class="form-group">
+					<div class="radio">
+						<b>Strongly Disagree &nbsp;&nbsp;</b>
+						<label><input type="radio" name="q5" id="q5-1" value="1" required> 1</label>
+						<label><input type="radio" name="q5" id="q5-2" value="2" required> 2</label>
+						<label><input type="radio" name="q5" id="q5-3" value="3" required> 3</label>
+						<label><input type="radio" name="q5" id="q5-4" value="4" required> 4</label>
+						<label><input type="radio" name="q5" id="q5-5" value="5" required> 5</label>
+						<b>&nbsp;&nbsp; Strongly Agree</b>
+					</div>
+				</div>
+<!--
+					<p class="control selectMe">
+						<span class="select">
+								  <select class="selectMe has-text-centered" required>
+									<option  name="q5" id="q5-1" value="1" >1 (strongly disagree)</option>
+									<option  name="q5" id="q5-2" value="2" >2</option>
+									<option  name="q5" id="q5-3" value="3" >3</option>
+									<option  name="q5" id="q5-4" value="4" >4</option>
+									<option  name="q5" id="q5-5" value="5" >5 (strongly agree)</option>
+								  </select>
+    					</span>
+					</p>
+-->
+				</div>
+
+				<div class="field">
+					<label class="label statements">6) I worry a lot.</label>
+				<div class="form-group">
+					<div class="radio">
+						<b>Strongly Disagree &nbsp;&nbsp;</b>
+						<label><input type="radio" name="q6" id="q6-1" value="1" required> 1</label>
+						<label><input type="radio" name="q6" id="q6-2" value="2" required> 2</label>
+						<label><input type="radio" name="q6" id="q6-3" value="3" required> 3</label>
+						<label><input type="radio" name="q6" id="q6-4" value="4" required> 4</label>
+						<label><input type="radio" name="q6" id="q6-5" value="5" required> 5</label>
+						<b>&nbsp;&nbsp; Strongly Agree</b>
+					</div>
+				</div>
+<!--
+					<p class="control selectMe">
+						<span class="select">
+								  <select class="selectMe has-text-centered" required>
+									<option  name="q6" id="q3-6" value="1" >1 (strongly disagree)</option>
+									<option  name="q6" id="q6-2" value="2" >2</option>
+									<option  name="q6" id="q6-3" value="3" >3</option>
+									<option  name="q6" id="q6-4" value="4" >4</option>
+									<option  name="q6" id="q6-5" value="5" >5 (strongly agree)</option>
+								  </select>
+    					</span>
+					</p>
+-->
+				</div>
+
+				<div class="field">
+					<label class="label statements">7) I love people.</label>
+				<div class="form-group">
+					<div class="radio">
+						<b>Strongly Disagree &nbsp;&nbsp;</b>
+						<label><input type="radio" name="q7" id="q7-1" value="1" required> 1</label>
+						<label><input type="radio" name="q7" id="q7-2" value="2" required> 2</label>
+						<label><input type="radio" name="q7" id="q7-3" value="3" required> 3</label>
+						<label><input type="radio" name="q7" id="q7-4" value="4" required> 4</label>
+						<label><input type="radio" name="q7" id="q7-5" value="5" required> 5</label>
+						<b>&nbsp;&nbsp; Strongly Agree</b>
+					</div>
+				</div>
+<!--
+					<p class="control selectMe">
+						<span class="select">
+								  <select class="selectMe has-text-centered" required>
+									<option  name="q7" id="q7-1" value="1" >1 (strongly disagree)</option>
+									<option  name="q7" id="q7-2" value="2" >2</option>
+									<option  name="q7" id="q7-3" value="3" >3</option>
+									<option  name="q7" id="q7-4" value="4" >4</option>
+									<option  name="q7" id="q7-5" value="5" >5 (strongly agree)</option>
+								  </select>
+    					</span>
+					</p>
+-->
+				</div>
+
+				<div class="field">
+					<label class="label statements">8) I believe you can accurately assess a person based on their first impression.</label>
+				<div class="form-group">
+					<div class="radio">
+						<b>Strongly Disagree &nbsp;&nbsp;</b>
+						<label><input type="radio" name="q8" id="q8-1" value="1" required> 1</label>
+						<label><input type="radio" name="q8" id="q8-2" value="2" required> 2</label>
+						<label><input type="radio" name="q8" id="q8-3" value="3" required> 3</label>
+						<label><input type="radio" name="q8" id="q8-4" value="4" required> 4</label>
+						<label><input type="radio" name="q8" id="q8-5" value="5" required> 5</label>
+						<b>&nbsp;&nbsp; Strongly Agree</b>
+					</div>
+				</div>
+<!--
+					<p class="control selectMe">
+						<span class="select">
+								  <select class="selectMe has-text-centered" required>
+									<option  name="q8" id="q8-1" value="1" >1 (strongly disagree)</option>
+									<option  name="q8" id="q8-2" value="2" >2</option>
+									<option  name="q8" id="q8-3" value="3" >3</option>
+									<option  name="q8" id="q8-4" value="4" >4</option>
+									<option  name="q8" id="q8-5" value="5" >5 (strongly agree)</option>
+								  </select>
+    					</span>
+					</p>
+-->
+				</div>
+
+				<div class="field">
+					<label class="label statements">9) I'm an adventure-addict.</label>
+				<div class="form-group">
+					<div class="radio">
+						<b>Strongly Disagree &nbsp;&nbsp;</b>
+						<label><input type="radio" name="q9" id="q9-1" value="1" required> 1</label>
+						<label><input type="radio" name="q9" id="q9-2" value="2" required> 2</label>
+						<label><input type="radio" name="q9" id="q9-3" value="3" required> 3</label>
+						<label><input type="radio" name="q9" id="q9-4" value="4" required> 4</label>
+						<label><input type="radio" name="q9" id="q9-5" value="5" required> 5</label>
+						<b>&nbsp;&nbsp; Strongly Agree</b>
+					</div>
+				</div>
+<!--
+					<p class="control selectMe">
+						<span class="select">
+								  <select class="selectMe has-text-centered" required>
+									<option  name="q9" id="q9-1" value="1" >1 (strongly disagree)</option>
+									<option  name="q9" id="q9-2" value="2" >2</option>
+									<option  name="q9" id="q9-3" value="3" >3</option>
+									<option  name="q9" id="q9-4" value="4" >4</option>
+									<option  name="q9" id="q9-5" value="5" >5 (strongly agree)</option>
+								  </select>
+    					</span>
+					</p>
+-->
+				</div>
+
+				<div class="field">
+					<label class="label statements">10) I am a happy person.</label>
+				<div class="form-group">
+					<div class="radio">
+						<b>Strongly Disagree &nbsp;&nbsp;</b>
+						<label><input type="radio" name="q10" id="q10-1" value="1" required>1</label>
+						<label><input type="radio" name="q10" id="q10-2" value="2" required>2</label>
+						<label><input type="radio" name="q10" id="q10-3" value="3" required>3</label>
+						<label><input type="radio" name="q10" id="q10-4" value="4" required>4</label>
+						<label><input type="radio" name="q10" id="q10-5" value="5" required>5</label>
+						<b>&nbsp;&nbsp; Strongly Agree</b>
+					</div>
+				</div>
+<!--
+					<p class="control selectMe">
+						<span class="select">
+								  <select class="selectMe has-text-centered" required>
+									<option  name="q10" id="q10-1" value="1" >1 (strongly disagree)</option>
+									<option  name="q10" id="q10-2" value="2" >2</option>
+									<option  name="q10" id="q10-3" value="3" >3</option>
+									<option  name="q10" id="q10-4" value="4" >4</option>
+									<option  name="q10" id="q10-5" value="5" >5 (strongly agree)</option>
+								  </select>
+    					</span>
+					</p>
+-->
+				</div>
+
+				<div class="field is-grouped submitMe fieldWidth">
+					<p class="control">
+						<button class="button submitBtn" id="submit">Submit</button>
+					</p>
+					<p class="control">
+						<button class="button">Cancel</button>
+					</p>
+				</div>
+		<div class="API apiMoveDown"><a href="/api/friends"><strong>API FRIENDS LIST</strong></a><br><center> Made with &hearts; By Chinwendu Opara 2017</center></div>
+
+		</div>
+	</section>
+	<!--SCRIPTS-->
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.4.0/typeit.min.js
+"></script>
+	<script src="jquery-3.1.1.min.js"></script>
+	<script src="typeit.js"></script>
+	<script type="text/javascript" src="../../fancyType/typeIt2.js"></script>
+			<!-- Modal -->
+	<div id="resultsModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h2 class="modal-title"><strong>Friend Finder: Your BEST Match</strong></h2>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-6">
+							<h2 id="yourName"></h2>
+							<img id="yourImg" src="" alt="">
+						</div>
+						<div class="col-md-6">
+							<h2 id="matchName"></h2>
+							<img id="matchImg" src="" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="assets/js/validator.js"></script>
+	<script src="assets/js/survey.js"></script>
+	<script type="text/javascript" src="../../assets/js/survey.js"></script>
+</body>
+
+</html>

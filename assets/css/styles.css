@@ -1,0 +1,124 @@
+.bgColor {
+/*
+background: #fe8c00;   fallback for old browsers
+background: -webkit-linear-gradient(to right, #f83600, #fe8c00);   Chrome 10-25, Safari 5.1-6
+background: linear-gradient(to right, #f83600, #fe8c00);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+*/
+
+background: #396afc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*page one "FriendFinder" title*/
+#friendFinderTitle {
+    color: #fcf3e7;
+    font-size: 170px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+/*page one "Answer a few basic questions. Then find the friend with the greatest compatibility!"*/
+#description2 {
+    color: #fcf3e7;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+#buttonColor {
+  background-color: #fff;
+  color: #396afc;
+	font-size: 30px;
+  font-weight: 400;
+}
+
+.hero.is-success .tabs.is-toggle li.is-active a {
+  color: #396afc;
+}
+
+.hero.is-success .tabs.is-toggle li.is-active a:hover {
+  color: #000;
+}
+
+.fieldWidth {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.selectMe {
+	margin: 0 auto;
+	width: 900px;
+}
+
+.submitMe {
+	margin: 0 auto;
+}
+
+.input {
+border: 1px solid #fff;
+background-color: transparent;
+color: #fff;
+}
+
+.label {
+	color: #fff;
+}
+
+.jumbotron {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #2948ff;
+	font-size: 25px;
+	padding: 30px;
+	margin-bottom: 35px;
+	border: 1px solid #fff;
+}
+
+.directions {
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.optionsExplained {
+	text-align: left;
+	width: 700px;
+	margin: 0 auto;
+}
+
+.surveyTitle {
+	width: 900px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 30px;
+}
+
+.statements {
+	width: 900px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 23px;
+	color: skyblue;
+}
+
+.submitBtn {
+	background-color: lightblue;
+}
+
+
+
+.API {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+input:focus {
+	color: #fff;
+}
+
+.apiMoveDown {
+	margin-top: 70px;
+}
