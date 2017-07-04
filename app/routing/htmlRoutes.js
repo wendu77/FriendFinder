@@ -1,13 +1,15 @@
-var path = require("path");
+var path = require('path');
 
 module.exports = function(app) {
 
-  app.get("/survey", function(req, res) {
-    res.sendFile(path.join(__dirname, "/../public/survey.html"));
-  });
+    // GET route for /survey returns survey.html.
+    app.get('/survey', function(req, res) {
+        res.sendFile(path.join(__dirname + '/../public/survey.html'));
+    });
 
-  // If there's no matching route found, default to home.
-  app.use(function(req, res) {
-    res.sendFile(path.join(__dirname, "/../public/home.html"));
-  });
+    // USE route returns home.html for any undefined GET routes.
+    app.use(function (req, res) {
+        res.sendFile(path.join(__dirname + '/../public/home.html'));
+    });
+
 };

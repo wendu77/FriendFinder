@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "App that allows people to be matched based on similarity in personality traits.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendu77/FriendFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wendu77/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/wendu77/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bulma": "^0.4.2",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
+}
