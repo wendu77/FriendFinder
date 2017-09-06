@@ -4,3 +4,5 @@ I've always wanted to know which celebrities I share similarities with! And I <b
 (This Application was developed with <strong>VanillaJS, Express, Bulma.io, TypeIt2,</strong> and <em>many other technologies</em> that you may find in the <em>package.json</em> file!
 
 <strong>LIVE DEMO</strong>: https://frndfindr.herokuapp.com
+
+![frndfindrappgif](https://user-images.githubusercontent.com/24254780/30138709-c4929988-9337-11e7-8c67-defaa1865758.gif)
