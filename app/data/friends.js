@@ -36,4 +36,4 @@ module.exports = [
         photo: 'https://dlwsd4gyk2o60.cloudfront.net/f6/fc/a092afed4311b91b21bf94961379/john-legend.png',
         answers: ['4','3','4','2','5','3','5','3','1','5']
     }
-];
+]

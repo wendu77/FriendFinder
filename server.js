@@ -1,23 +1,25 @@
-// Import dependencies.
-var express = require('express');
-var bodyParser = require('body-parser');
+// Require dependencies.
+const
+    express = require('express'),
+    bodyParser = require('body-parser'),
+    app = express(),
+    PORT = process.env.PORT || 3000
 
-// Initialize app.
-var app = express();
-
-// PORT is either the port provided by Heroku via process.env.PORT or 3000.
-var PORT = process.env.PORT || 3000;
+// Requiring project files
+const
+    mainR = require('./app/routing/htmlRoutes'),
+    apiR = require('./app/routing/apiRoutes')
 
 // Set up middleware.
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.text());
-app.use(bodyParser.json({ type: "application/vnd.api+json" }));
-app.use(express.static(__dirname + '/app/public'));
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }))
+app.use(bodyParser.text())
+app.use(bodyParser.json({ type: "application/vnd.api+json" }))
+app.use(express.static(__dirname + '/app/public'))
 
-// Import routes.
-require('./app/routing/apiRoutes')(app);
-require('./app/routing/htmlRoutes')(app);
+// Routes
+app.use('/api', apiR)
+app.use('/', mainR)
 
 // Start listening.
-app.listen(PORT, '0.0.0.0');
+app.listen(PORT, () => console.log('App running..') )

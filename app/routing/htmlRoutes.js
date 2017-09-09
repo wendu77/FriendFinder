@@ -1,15 +1,11 @@
-var path = require('path');
+const
+    path = require('path'),
+    app = require('express').Router()
 
-module.exports = function(app) {
+// GET route for /survey returns survey.html.
+app.get('/survey', (req, res) => res.sendFile(path.join(__dirname + '/../public/survey.html')) )
 
-    // GET route for /survey returns survey.html.
-    app.get('/survey', function(req, res) {
-        res.sendFile(path.join(__dirname + '/../public/survey.html'));
-    });
+// USE route returns home.html for any undefined GET routes.
+app.use((req, res) => res.sendFile(path.join(__dirname + '/../public/home.html')) )
 
-    // USE route returns home.html for any undefined GET routes.
-    app.use(function (req, res) {
-        res.sendFile(path.join(__dirname + '/../public/home.html'));
-    });
-
-};
+module.exports = app
