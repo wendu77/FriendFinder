@@ -6,4 +6,4 @@ I've always wanted to know which people I share similarities with! And I <b>KNOW
 
 <strong>LIVE DEMO</strong>: https://frndfindr.herokuapp.com/
 
-![frndfindrappgif](https://user-images.githubusercontent.com/24254780/30138709-c4929988-9337-11e7-8c67-defaa1865758.gif)
+![frndfindrappgifupdated](https://user-images.githubusercontent.com/24254780/30345470-26798536-97d3-11e7-873f-586479811deb.gif)
