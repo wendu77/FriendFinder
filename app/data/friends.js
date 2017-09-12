@@ -22,7 +22,7 @@ module.exports = [
         answers: ['3','3','4','2','2','1','3','2','2','3']
     },
 	{
-        name: 'PatyNextDoor',
+        name: 'PartyNextDoor',
         photo: 'http://b.looklive.com/qfCJDjK6c58X-z09YdbBsiYWXSE=/167x0:834x1000/6c520fca-67ab-4e01-b13a-4c7fc7d16c35',
         answers: ['4','3','4','1','5','2','5','3','1','4']
     },
