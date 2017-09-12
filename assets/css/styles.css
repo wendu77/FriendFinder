@@ -11,18 +11,22 @@ background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, F
 
 }
 
+/*.type-it {
+	font-size: 10rem;
+}
+*/
 /*page one "FriendFinder" title*/
 #friendFinderTitle {
-    color: #fcf3e7;
-    font-size: 170px;
-    font-weight: 400;
-    letter-spacing: 0.03em;
+    /*color: #ff0000 /*fcf3e7*/
+    /*font-size: 500px;*/
+    /*font-weight: 400;*/
+    /*letter-spacing: 0.03em;*/
 }
 
 /*page one "Answer a few basic questions. Then find the friend with the greatest compatibility!"*/
 #description2 {
     color: #fcf3e7;
-    font-size: 40px;
+    /*font-size: 40px;*/
     font-weight: 400;
     letter-spacing: 0.03em;
 }
@@ -106,8 +110,6 @@ color: #fff;
 .submitBtn {
 	background-color: lightblue;
 }
-
-
 
 .API {
 	margin: 0 auto;
