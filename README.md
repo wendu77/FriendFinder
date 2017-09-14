@@ -4,6 +4,7 @@ I've always wanted to know which people I share similarities with! And I <b>KNOW
 ## Technologies Used
 VanillaJS, Express, NodeJS, REST API (from scratch), Bulma.io, TypeIt2
 
-<strong>LIVE DEMO</strong>: https://frndfindr.herokuapp.com/
+### Live Demo
+<strong>LINK</strong>: https://frndfindr.herokuapp.com/
 
 ![frndfindrappgifupdated](https://user-images.githubusercontent.com/24254780/30345470-26798536-97d3-11e7-873f-586479811deb.gif)
